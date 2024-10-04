@@ -1,3 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bd04c851-6b2b-40f1-9730-331a3a7fcc83/deploy-status)](https://app.netlify.com/sites/remix-ssg/deploys)
+
+This repository demonstrates how to generate static pages using the Remix Run framework. A step-by-step guide to setting up a Remix project, creating static pages, pre-rendering them at build time, and deploying them on platforms like Netlify found on this Link [https://habibhinn.com/blog/how-to-generate-a-static-site-using-remix-run-framework](https://habibhinn.com/blog/how-to-generate-a-static-site-using-remix-run-framework).
+
+The project showcases how Remix can be used for static site generation (SSG) to deliver fast, SEO-optimized websites with minimal server overhead.
+
 # Welcome to Remix!
 
 - 📖 [Remix docs](https://remix.run/docs)
