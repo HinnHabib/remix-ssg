@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix vite:build && concurrently --kill-others \"npm run start\" \"node generate-files.js\"",
+    "build": "remix vite:build && concurrently --kill-others --success first \"node generate-files.js\" \"npm run start\"",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
